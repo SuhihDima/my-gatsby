@@ -1,11 +1,13 @@
 import * as React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 export const About = () =>{
     return(
-        <div>
-            <h1>Gatsby Hellou</h1>
-            <p>Надрезаем хомут или резинку и снимаем пластиковый пакет. Корневая система саженца плотно упакована в торф и обмотана тонкой пленкой. Во избежание повреждений корней черную пленку лучше не разрезать, а осторожно размотать.</p>
-        </div>
+     <Layout PageHeading='О нас' PageTitle='Домашняя страница'>
+        Все новости о комнании и наших сотрудниках
+    </Layout>
+    
     );
 };
 

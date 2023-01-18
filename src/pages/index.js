@@ -1,13 +1,18 @@
 import * as React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
-const Homepage = () => {
-    return (<>
-        <h1>Привет Мир!</h1>
-        <p>Надрезаем хомут или резинку и снимаем пластиковый пакет. Корневая система саженца плотно упакована в торф и обмотана тонкой пленкой. Во избежание повреждений корней черную пленку лучше не разрезать, а осторожно размотать.</p>
 
-    </>
-    );
-};
+// Step 2: Define your component
+const IndexPage = () => {
+return (
+<Layout PageHeading='Домашняя' PageTitle='Ремонт стиральных машин'>
+    Добро пожаловать на нашу главную страницу
+</Layout>
+)
+}
 
-export default Homepage;
+
+// Step 3: Export your component
+export default IndexPage
 
